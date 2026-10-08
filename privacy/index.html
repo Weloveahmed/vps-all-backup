@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy Policy for VPS ALL BACKUP, a private encrypted Google Drive backup tool.">
+<title>Privacy Policy | VPS ALL BACKUP</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header><nav class="wrap" aria-label="Main navigation"><a class="logo" href="/">VPS <span>ALL BACKUP</span></a><div class="links"><a href="/">Home</a><a href="https://github.com/Weloveahmed/vps-all-backup">Project</a></div></nav></header>
+<main class="wrap document"><span class="eyebrow">Transparency &amp; security</span><h1>Privacy Policy</h1><p><strong>Last updated:</strong> October 8, 2026</p>
+<p>VPS ALL BACKUP is a private, self-managed utility used by the VPS owner to create encrypted backups and store them in the owner's Google Drive account. This page explains the intended handling of data and Google account authorization.</p>
+<h2>What data the utility accesses</h2><p>The utility uses Google OAuth to obtain access to Google Drive files it creates or is authorized to manage for backup purposes. It uploads encrypted Restic repository data and may list, update, or delete those repository files as part of configured backup maintenance.</p>
+<h2>How backups are protected</h2><p>Backup data is encrypted on the VPS by Restic before transmission. The encryption password is managed separately from Google Drive. Access to the Google account does not by itself decrypt backup contents.</p>
+<h2>Storage and retention</h2><p>Encrypted backup data is stored in the owner's Google Drive. Backup retention is configured by the owner. The utility may create local temporary backup files on the VPS during operation. The site itself does not provide access to backup contents.</p>
+<h2>Authentication credentials</h2><p>Google OAuth tokens are intended to be stored in restricted configuration files on the owner's VPS and used only to operate this backup integration. OAuth credentials and backup encryption passwords must not be placed in any public GitHub repository.</p>
+<h2>Sharing and advertising</h2><p>This utility is not a public service, does not sell personal data, and does not use Google Drive data for advertising or unrelated profiling. Backups are sent to the owner's authorized Google Drive storage, not to this website.</p>
+<h2>Public website</h2><p>These public information pages have no registration form, analytics scripts, or custom tracking cookies. GitHub Pages, which hosts this website, may process standard request information subject to its own privacy policies.</p>
+<h2>Revoking access</h2><p>The account owner can disconnect the utility by removing its OAuth permission from Google Account settings. Previously uploaded encrypted backups may remain in Google Drive until deleted by the owner.</p>
+<h2>Changes and contact</h2><p>This policy may be updated if the utility's operation changes. For questions or concerns, contact the developer through the <a href="https://github.com/Weloveahmed/vps-all-backup/issues">project's GitHub Issues page</a> or the support contact displayed on the Google OAuth consent screen.</p>
+<div class="actions"><a class="btn secondary" href="/">Back to Home</a></div>
+</main><footer><div class="wrap"><span>© 2026 VPS ALL BACKUP</span><span>Private backup utility</span></div></footer>
+</body></html>
