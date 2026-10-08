@@ -15,3 +15,4 @@ Static public information pages for the VPS backup application's Google OAuth co
 **Security:** Never upload Google OAuth client secrets, access/refresh tokens, `.env` files, Restic passwords, databases, or encrypted backup archives to this public repository.
 
 **Notice:** Check that the statements in the Privacy Policy reflect your actual deployment configuration before using them in OAuth consent settings.
+Deployment trigger: GitHub Pages
